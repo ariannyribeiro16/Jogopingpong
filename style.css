@@ -1,0 +1,41 @@
+@charset "UFT-8";
+
+body{
+    margin: 0px;
+    background-color: rgb(123, 123, 255);
+}
+#dvPainel{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.itemPainel{
+    margin: 5px;
+}
+#dvJogo{
+    width: 960px;
+    height: 500px;
+    border: 1px solid blue;
+    background-color: blue;
+}
+#dvBola{
+    position: absolute;
+    top: 240px;
+    left: 475;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(156, 156, 255);
+}
+.barra{
+    position: absolute;
+    width: 20px;
+    height: 140px;
+    background-color: rgb(121, 121, 204);
+    top: 180px;
+}
+.esquerda{
+    left: 10px;
+}
+.direita{
+    left: 930px;
+}
